@@ -1,6 +1,13 @@
 import numpy as np
 
 def calculate(list):
+    ### List[int]-> Dict{'string': List[List[np.float64]], ... 'string': List[List[int]}
+    ### Input list of nine numbers. Convert list to 3x3 numPy array
+    ### Calculate mean, variance, standard deviation, max, min and sum of each axis, and the flattened matrix
+    ### Output a dict of lists for each calculation
+    ### Raise ValueError for lists < 9 numbers
+    
+    
     # try main body of function
     try: 
     #create 3 x 3 matrix from list
